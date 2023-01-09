@@ -1,0 +1,17 @@
+.buttonStart {
+    padding: 0vh 1vh 0vh 1vh;
+
+    border-radius: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #E0DDAA;
+    box-shadow:  2px 2px 1px 2px rgb(212, 29, 29);
+    background: #141E27;
+    transition: .4s;
+}
+
+.buttonStart:hover {
+    opacity: 95%;
+    box-shadow:  2px 2px 1px 2px rgb(83, 182, 83);
+}

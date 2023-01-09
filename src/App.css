@@ -1,0 +1,79 @@
+
+@media screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .counter {
+    display: flex;
+    flex-direction: column;
+    margin-top: -35vh;
+  }
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'FakeHope';
+  src: url('FakeHope.ttf');
+  font-weight: normal;
+  font-style: normal,
+}
+
+@font-face {
+  font-family: 'FakeHopeFilled';
+  src: url('FakeHopeFilled.ttf');
+  font-weight: normal;
+  font-style: normal,
+}
+
+body {
+  background-color: #EEEDDE;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.header {
+  display: flex;
+  gap: 10rem;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.counter .tempo {
+  color: #141E27;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.playerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.playerSection h1 {
+  font-size: 2rem;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}

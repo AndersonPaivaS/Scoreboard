@@ -1,0 +1,62 @@
+@media (width: 1000px) {
+    .settingsBox {
+        max-width: 400px;
+    }
+}
+
+.settingsContainer {
+    background: rgba(242, 243, 245, 0.938);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+
+    min-width: 25vw;
+    min-height: 55vh;
+
+    border-radius: 10px;
+    background-color: #141E27;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #E0DDAA;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: .5rem;
+
+    color: #EEEDDE;
+    font-size: 1rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+main input {
+    padding: .3rem;
+    background-color: #E0DDAA;
+    color: #141E27;
+    border-radius: 6px;
+}
+
+footer img {
+    width: 2rem;
+}

@@ -1,0 +1,7 @@
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'FakeHopeFilled';
+    font-size: 8rem;
+}

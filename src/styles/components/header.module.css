@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 900px) {
+    .header {
+        visibility: hidden;
+    }
+
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header h1 {
+    color: #141E27;
+    font-size: 3.5vh;
+    white-space: nowrap;
+
+    font-weight: 100;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.header img {
+    width: 5rem;
+}

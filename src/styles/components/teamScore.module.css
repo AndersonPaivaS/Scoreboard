@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 800px) {
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homeTeam, .visitingTeam {
+        max-width: 100px;
+    }
+
+    .goal img {
+        min-width: 35px;
+    }
+    
+
+}
+
+section {
+    display: flex;
+    gap: 2rem;
+}
+
+.homeTeam, .visitingTeam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 8rem;
+
+    background-color: #E0DDAA;
+    box-shadow: 2px 2px 1px 2px #203239;
+}
+
+.homeTeam h2, .visitingTeam h2 {
+    margin-bottom: -3rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 2rem;
+}
+
+.homeTeam h1, .visitingTeam h1 {
+    margin-bottom: -3rem;
+    font-family: 'FakeHope', sans-serif;
+    font-size: 15rem;
+}
+
+.goal {
+    display: flex;
+    gap: 1rem;
+}
+
+.goal img {
+    width: 2vw;
+}
