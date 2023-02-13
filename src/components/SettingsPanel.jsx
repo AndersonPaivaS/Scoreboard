@@ -21,7 +21,7 @@ export default function SettingsPanel() {
 
           <footer>
             <button onClick={closeSettings}>
-              <img src="/icons/x-button.png" alt="" />
+              <img src={`https://github.com/AndersonPaivaS/Scoreboard/raw/main/public/icons/x-button.png`} alt="Fechar" />
             </button>
           </footer>
 
