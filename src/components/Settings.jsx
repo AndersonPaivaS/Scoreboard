@@ -6,6 +6,6 @@ export default function Settings() {
     const { openSettings } = useContext(ScoreboardContext)
 
   return (
-    <button onClick={openSettings}> <img src="/icons/settings.png" alt="Configurações" /> </button>
+    <button onClick={openSettings}> <img src={`https://github.com/AndersonPaivaS/Scoreboard/raw/main/public/icons/settings.png`} alt="Configurações" /> </button>
   )
 }
